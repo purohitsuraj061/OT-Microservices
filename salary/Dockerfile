@@ -1,4 +1,4 @@
-FROM maven:latest as builder
+FROM maven:3.8.3 as builder
 MAINTAINER Opstree Solutions
 WORKDIR /java/
 COPY pom.xml /java/
